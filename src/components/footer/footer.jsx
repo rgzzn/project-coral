@@ -26,19 +26,16 @@ export const Foot = () => {
             </a>
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-orange-50">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+                Via Nazionale 21, 47017 <br></br>Rocca di San Casciano (FC) -
+                Italy
               </p>
-              <p className="mt-4 text-sm text-orange-50">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </p>
+              <p className="mt-4 text-sm text-orange-50">+39 0543 960 336</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <p className="font-semibold tracking-wide text-gray-900">
-                Category
+                Settori
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -46,7 +43,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    News
+                    Elettrodomestico
                   </a>
                 </li>
                 <li>
@@ -54,7 +51,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    World
+                    Macchine per il caffè
                   </a>
                 </li>
                 <li>
@@ -62,7 +59,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Games
+                    Arredamento grande distribuzione
                   </a>
                 </li>
                 <li>
@@ -70,14 +67,30 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    References
+                    Serrature
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
+                  >
+                    Ceramico
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
+                  >
+                    Packaging
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-gray-900">
-                Cherry
+                Lavorazioni
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -85,7 +98,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Web
+                    Carpenteria Metallica
                   </a>
                 </li>
                 <li>
@@ -93,7 +106,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    eCommerce
+                    Stampaggio Lamiere Acciaio
                   </a>
                 </li>
                 <li>
@@ -101,7 +114,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Business
+                    Lavorazioni Macchine CNC
                   </a>
                 </li>
                 <li>
@@ -109,22 +122,14 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Entertainment
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
-                  >
-                    Portfolio
+                    Assemblaggio Gruppi a Commessa
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-gray-900">
-                Apples
+                Know How
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -132,7 +137,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Media
+                    Analisi fattibilità e preventivazione
                   </a>
                 </li>
                 <li>
@@ -140,7 +145,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Brochure
+                    Prototipazione
                   </a>
                 </li>
                 <li>
@@ -148,30 +153,14 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Nonprofit
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
-                  >
-                    Educational
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
-                  >
-                    Projects
+                    Gestione Commessa
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-gray-900">
-                Business
+                Azienda
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -179,7 +168,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Infopreneur
+                    Referenze
                   </a>
                 </li>
                 <li>
@@ -187,7 +176,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Personal
+                    Case History
                   </a>
                 </li>
                 <li>
@@ -195,7 +184,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Wiki
+                    Contatti
                   </a>
                 </li>
                 <li>
@@ -203,7 +192,7 @@ export const Foot = () => {
                     href="/"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
-                    Forum
+                    Login
                   </a>
                 </li>
               </ul>
@@ -212,7 +201,9 @@ export const Foot = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-orange-accent-200 sm:flex-row">
           <p className="text-sm text-gray-100">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2024 Bipres S.p.A - All rights reserved. | P.IVA
+            01608140404 - Iscrizione Registro Imprese Forlì-Cesena n.11776 -
+            Cap.Soc.Inv. € 1.000.000,00 i.v.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
