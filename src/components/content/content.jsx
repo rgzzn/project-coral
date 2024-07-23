@@ -1,3 +1,9 @@
+import { PiGearFineBold, PiStairsDuotone } from "react-icons/pi";
+import { FaKitchenSet } from "react-icons/fa6";
+import { MdOutlineCoffeeMaker } from "react-icons/md";
+import { RiDoorLockLine } from "react-icons/ri";
+import { TbSettingsBolt } from "react-icons/tb";
+import { BsBoxSeam } from "react-icons/bs";
 export const Content = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
@@ -5,19 +11,7 @@ export const Content = () => {
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <TbSettingsBolt className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Elettrodomestico</h6>
           <p className="text-sm">
@@ -27,19 +21,7 @@ export const Content = () => {
         </div>
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <MdOutlineCoffeeMaker className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
             Macchine per il caffè
@@ -52,19 +34,7 @@ export const Content = () => {
         </div>
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <PiStairsDuotone className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">
             Arredamento grande distribuzione
@@ -76,19 +46,7 @@ export const Content = () => {
         </div>
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <RiDoorLockLine className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Serrature</h6>
           <p className="text-sm ">
@@ -98,19 +56,7 @@ export const Content = () => {
         </div>
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <PiGearFineBold className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Ceramico</h6>
           <p className="text-sm ">
@@ -120,19 +66,7 @@ export const Content = () => {
         </div>
         <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-10 h-10 text-orange-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <BsBoxSeam className="w-7 h-7 text-orange-accent-400" />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Packaging</h6>
           <p className="text-sm ">

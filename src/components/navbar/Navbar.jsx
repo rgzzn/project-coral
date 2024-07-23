@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logoBlack from "../../assets/logo-black-1.svg";
-import logoWhite from "../../assets/logo-white-1.svg";
 import logoAllWhite from "../../assets/logoAllWhite.svg";
 
 export const Nav = () => {
@@ -156,10 +155,10 @@ export const Nav = () => {
                     <ul class="space-y-4">
                       <li>
                         <a
-                          href="/"
+                          href="/Settori"
                           aria-label="Settori"
                           title="Settori"
-                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-gray-900"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
                         >
                           Settori
                         </a>

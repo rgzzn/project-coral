@@ -1,19 +1,22 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ChakraProvider } from "@chakra-ui/react";
 
 import Homepage from "./pages/homepage";
 import Settori from "./pages/settori";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/settori" element={<SettoriPage />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <ChakraProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/settori" element={<SettoriPage />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </ChakraProvider>
   );
 }
 
