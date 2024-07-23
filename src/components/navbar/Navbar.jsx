@@ -90,7 +90,7 @@ export const Nav = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="https://login.microsoftonline.com/bipres.it/oauth2/v2.0/authorize?client_id=2793995e-0a7d-40d7-bd35-6968ba142197&scope=openid+profile+offline_access+email&redirect_uri=https%3a%2f%2fmyapplications.microsoft.com%2f&client-request-id=ce637e9f-8acb-40f0-943c-a379fb4de7fc&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.37.1&client_info=1&code_challenge=XvUyDLwJSRxGt66bTGlNQBraO3AXkp0WWvtXGtwtEoU&code_challenge_method=S256&prompt=select_account&nonce=c88881e4-8d95-4aa2-9646-d23777a1f066&state=eyJpZCI6ImQzNjY3OGQzLWVkNTAtNDMzZS1hYTI0LWRjNGQ3ZDg5ZjllZCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d&allowbacktocommon=True"
                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-200 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
                 aria-label="Login"
                 title="Login"
