@@ -40,7 +40,7 @@ export const Foot = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/settori/elettrodomestico"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Elettrodomestico
@@ -48,7 +48,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/settori/caffe"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Macchine per il caffè
@@ -56,7 +56,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/settori/arredamento"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Arredamento grande distribuzione
@@ -64,7 +64,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/settore/serrature"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Serrature
@@ -72,7 +72,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/settori/ceramico"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Ceramico
@@ -80,7 +80,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/settori/packaging"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Packaging

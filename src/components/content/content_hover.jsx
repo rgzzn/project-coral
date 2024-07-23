@@ -19,10 +19,10 @@ export const Content_hover = () => {
             <p className="mb-2 text-xs font-semibold tracking-wide text-gray-800 uppercase">
               HOME / SETTORI
             </p>
-            <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
               Settori di produzione
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
+            <p className="text-base text-gray-600 md:text-lg">
               I diversi ambiti in cui forniamo alta qualità e soluzioni
               innovative
             </p>
@@ -51,7 +51,7 @@ export const Content_hover = () => {
           </a>
 
           <a
-            href="/settori/macchine-per-il-caffe"
+            href="/settori/caffe"
             aria-label="Macchine per il caffè"
             title="Macchine per il caffè"
             className=""
@@ -71,7 +71,7 @@ export const Content_hover = () => {
             </div>
           </a>
           <a
-            href="/settori/arredamento-grande-distribuzione"
+            href="/settori/arredamento"
             aria-label="Arredamento grande distribuzione"
             title="Arredamento grande distribuzione"
             className=""
