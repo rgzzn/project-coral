@@ -1,22 +1,34 @@
 import "./App.css";
-import { Nav as Navbar } from "./components/navbar/Navbar";
-import { Foot as Footer } from "./components/footer/footer.jsx";
-import { Header } from "./components/header/Header";
-import { Motto } from "./components/motto/Motto";
-import { Content } from "./components/content/content";
-import { Statistic } from "./components/content/Statistic";
-import { Step } from "./components/content/keyPower";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Homepage from "./pages/homepage";
+import Settori from "./pages/settori";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Motto />
-      <Content />
-      <Statistic />
-      <Step />
-      <Footer />
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/settori" element={<SettoriPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
+}
+
+function Home() {
+  return (
+    <div>
+      <Homepage />
+    </div>
+  );
+}
+
+function SettoriPage() {
+  return (
+    <div>
+      <Settori />
     </div>
   );
 }

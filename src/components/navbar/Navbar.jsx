@@ -21,7 +21,7 @@ export const Nav = () => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
+                href="/Settori"
                 aria-label="Settori"
                 title="Settori"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
