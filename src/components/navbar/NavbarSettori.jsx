@@ -7,8 +7,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logoAllWhite from "../../assets/logoAllWhite.svg";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "Settori", href: "/settori", current: false },
+  { name: "Home", href: "/", current: false },
+  { name: "Settori", href: "/settori", current: true },
   { name: "Lavorazioni", href: "#", current: false },
   { name: "Know How", href: "#", current: false },
   { name: "Parco Macchine", href: "#", current: false },

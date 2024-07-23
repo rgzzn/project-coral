@@ -8,13 +8,13 @@ import arredamento_4 from "../assets/settori/arredamento/arredamento_4.jpg";
 import arredamento_5 from "../assets/settori/arredamento/arredamento_5.jpg";
 import arredamento_6 from "../assets/settori/arredamento/arredamento_6.jpg";
 
-import { Nav as Navbar } from "../components/navbar/Navbar";
+import Nav from "../components/navbar/NavbarSettori";
 import { Foot as Footer } from "../components/footer/footer";
 
 const Arredamento = () => {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <div>
         {/* contenitore per il settore */}
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

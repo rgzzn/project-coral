@@ -11,12 +11,12 @@ import serrature_7 from "../assets/settori/serrature/serrature_7.jpg";
 import serrature_8 from "../assets/settori/serrature/serrature_8.jpg";
 import serrature_9 from "../assets/settori/serrature/serrature_9.jpg";
 
-import { Nav as Navbar } from "../components/navbar/Navbar";
+import Nav from "../components/navbar/NavbarSettori";
 import { Foot as Footer } from "../components/footer/footer";
 const Serrature = () => {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <div>
         {/* contenitore per il settore */}
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

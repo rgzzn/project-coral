@@ -11,13 +11,13 @@ import ceramico_8 from "../assets/settori/ceramico/ceramico_8.jpg";
 import ceramico_9 from "../assets/settori/ceramico/ceramico_9.jpg";
 import ceramico_10 from "../assets/settori/ceramico/ceramico_10.jpg";
 
-import { Nav as Navbar } from "../components/navbar/Navbar";
+import Nav from "../components/navbar/NavbarSettori";
 import { Foot as Footer } from "../components/footer/footer";
 
 const Ceramico = () => {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <div>
         {/* contenitore per il settore */}
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

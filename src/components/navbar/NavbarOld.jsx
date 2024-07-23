@@ -1,0 +1,246 @@
+import React, { useState } from "react";
+import logoBlack from "../../assets/logo-black-1.svg";
+import logoAllWhite from "../../assets/logoAllWhite.svg";
+
+export const Nav = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <div class="bg-orange-accent-400">
+      <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="relative flex items-center justify-between">
+          <a
+            href="/"
+            aria-label="Company"
+            title="Company"
+            class="inline-flex items-center"
+          >
+            <img src={logoAllWhite} alt="" height="200px" />
+          </a>
+          <ul class="flex items-center hidden space-x-8 lg:flex">
+            <li>
+              <a
+                href="/Settori"
+                aria-label="Settori"
+                title="Settori"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Settori
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Lavorazioni"
+                title="Lavorazioni"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Lavorazioni
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Know How"
+                title="Know How"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Know How
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Parco Macchine"
+                title="Parco Macchine"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Parco Macchine
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Referenze"
+                title="Referenze"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Referenze
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Case History"
+                title="Case History"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Case History
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Contatti"
+                title="Contatti"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-900"
+              >
+                Contatti
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://login.microsoftonline.com/bipres.it/oauth2/v2.0/authorize?client_id=2793995e-0a7d-40d7-bd35-6968ba142197&scope=openid+profile+offline_access+email&redirect_uri=https%3a%2f%2fmyapplications.microsoft.com%2f&client-request-id=ce637e9f-8acb-40f0-943c-a379fb4de7fc&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.37.1&client_info=1&code_challenge=XvUyDLwJSRxGt66bTGlNQBraO3AXkp0WWvtXGtwtEoU&code_challenge_method=S256&prompt=select_account&nonce=c88881e4-8d95-4aa2-9646-d23777a1f066&state=eyJpZCI6ImQzNjY3OGQzLWVkNTAtNDMzZS1hYTI0LWRjNGQ3ZDg5ZjllZCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d&allowbacktocommon=True"
+                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-accent-200 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
+                aria-label="Login"
+                title="Login"
+              >
+                Login
+              </a>
+            </li>
+          </ul>
+          <div class="lg:hidden">
+            <button
+              aria-label="Open Menu"
+              title="Open Menu"
+              class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-orange-50 focus:bg-orange-50"
+              onClick={() => setIsMenuOpen(true)}
+            >
+              <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
+                />
+              </svg>
+            </button>
+            {isMenuOpen && (
+              <div class="absolute top-0 left-0 w-full">
+                <div class="p-5 bg-white border rounded shadow-sm">
+                  <div class="flex items-center justify-between mb-4">
+                    <div>
+                      <a
+                        href="/"
+                        aria-label="Company"
+                        title="Company"
+                        class="inline-flex items-center"
+                      >
+                        <img src={logoBlack} alt="logo" height="100px" />
+                      </a>
+                    </div>
+                    <div>
+                      <button
+                        aria-label="Close Menu"
+                        title="Close Menu"
+                        class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                          <path
+                            fill="currentColor"
+                            d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <nav>
+                    <ul class="space-y-4">
+                      <li>
+                        <a
+                          href="/Settori"
+                          aria-label="Settori"
+                          title="Settori"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Settori
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Lavorazioni"
+                          title="Lavorazioni"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Lavorazioni
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Know How"
+                          title="Know How"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Know How
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Parco Macchine"
+                          title="Parco Macchine"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Parco Macchine
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Referenze"
+                          title="Referenze"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Referenze
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Case History"
+                          title="Case History"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Case History
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="Contatti"
+                          title="Contatti"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-orange-accent-400"
+                        >
+                          Contatti
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-orange-accent-400 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
+                          aria-label="Login"
+                          title="Login"
+                        >
+                          Login
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
