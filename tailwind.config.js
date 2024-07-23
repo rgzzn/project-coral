@@ -266,10 +266,10 @@ module.exports = {
           700: "#f57c00",
           800: "#ef6c00",
           900: "#F07F13",
-          "accent-100": "#f39942",
+          "accent-100": "#f6b271",
           "accent-200": "#f28c2b",
           "accent-400": "#F07F13",
-          "accent-700": "#d87211",
+          "accent-700": "#78400a",
         },
         "deep-orange": {
           50: "#fbe9e7",

@@ -1,4 +1,4 @@
-import Corporate from "../../assets/BIPRES_CORPORATE.mp4";
+import Corporate from "../../assets/BIPRES_CORPORATE.webm";
 
 export const Header = () => {
   const isSmallScreen = window.innerWidth <= 768; // Aggiungi questa variabile per controllare la dimensione dello schermo

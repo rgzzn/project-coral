@@ -5,7 +5,7 @@ import { RiDoorLockLine } from "react-icons/ri";
 import { TbSettingsBolt } from "react-icons/tb";
 import { BsBoxSeam } from "react-icons/bs";
 
-export const Content_hover = () => {
+export const ContentHover = () => {
   return (
     <div>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

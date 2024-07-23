@@ -7,6 +7,7 @@ import { Motto } from "../components/motto/Motto";
 import { Content } from "../components/content/content";
 import { Statistic } from "../components/content/Statistic";
 import { Step } from "../components/content/keyPower";
+import { ComegaOrange } from "../components/content/comega_orange";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Navbar />
       <Header />
       <Motto />
+      <ComegaOrange />
       <Content />
       <Statistic />
       <Step />

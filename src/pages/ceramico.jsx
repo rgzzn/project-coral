@@ -2,7 +2,6 @@ import React from "react";
 import { FaRegDotCircle } from "react-icons/fa";
 
 import ceramico_1 from "../assets/settori/ceramico/ceramico_1.jpg";
-import ceramico_2 from "../assets/settori/ceramico/ceramico_2.jpg";
 import ceramico_3 from "../assets/settori/ceramico/ceramico_3.jpg";
 import ceramico_4 from "../assets/settori/ceramico/ceramico_4.jpg";
 import ceramico_5 from "../assets/settori/ceramico/ceramico_5.jpg";

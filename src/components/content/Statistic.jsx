@@ -4,18 +4,18 @@ import { GiMetalPlate, GiScrew } from "react-icons/gi";
 export const Statistic = () => {
   return (
     <div className="bg-orange-accent-400">
-      <div className="px-4 py-48 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-28 lg:py-20">
+      <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-28 lg:py-5">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-orange-accent-100 sm:w-12 sm:h-12">
-              <PiPuzzlePieceDuotone className="w-7 h-7 text-orange-accent-400" />
+              <PiPuzzlePieceDuotone className="w-7 h-7 text-orange-accent-700" />
             </div>
             <h6 className="text-4xl font-bold text-gray-100">2.6 MLN</h6>
             <p className="mb-2 font-bold text-md">Pezzi prodotti all'anno</p>
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-orange-accent-100 sm:w-12 sm:h-12">
-              <GiMetalPlate className="h-7 w-7 text-orange-accent-400" />
+              <GiMetalPlate className="h-7 w-7 text-orange-accent-700" />
             </div>
             <h6 className="text-4xl font-bold text-gray-100">2.3 MLN</h6>
             <p className="mb-2 font-bold text-md">
@@ -24,7 +24,7 @@ export const Statistic = () => {
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-orange-accent-100 sm:w-12 sm:h-12">
-              <GiScrew className="w-7 h-7 text-orange-accent-400" />
+              <GiScrew className="w-7 h-7 text-orange-accent-700" />
             </div>
             <h6 className="text-4xl font-bold text-gray-100">3177</h6>
             <p className="mb-2 font-bold text-md">
@@ -33,7 +33,7 @@ export const Statistic = () => {
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-orange-accent-100 sm:w-12 sm:h-12">
-              <PiTruckTrailerDuotone className="w-7 h-7 text-orange-accent-400" />
+              <PiTruckTrailerDuotone className="w-7 h-7 text-orange-accent-700" />
             </div>
             <h6 className="text-4xl font-bold text-gray-100">245K</h6>
             <p className="mb-2 font-bold text-md">
