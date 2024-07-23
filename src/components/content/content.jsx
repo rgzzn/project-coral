@@ -3,7 +3,7 @@ export const Content = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"></div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -20,12 +20,12 @@ export const Content = () => {
             </svg>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Elettrodomestico</h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm">
             Eccellenza in componenti per elettrodomestici, dall’alta produzione
             a prototipi esclusivi, unendo tecnologia e design.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -44,13 +44,13 @@ export const Content = () => {
           <h6 className="mb-2 font-semibold leading-5">
             Macchine per il caffè
           </h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm">
             Dal 2008, offriamo componenti di design e strutturali per leader del
             caffè, con acciaio aisi 304 e collaborazioni per rafforzare la loro
             posizione di mercato.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -69,12 +69,12 @@ export const Content = () => {
           <h6 className="mb-2 font-semibold leading-5">
             Arredamento grande distribuzione
           </h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm ">
             Soluzioni meccaniche innovative per la grande distribuzione, con un
             focus su qualità e partnership strategiche.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -91,12 +91,12 @@ export const Content = () => {
             </svg>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Serrature</h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm ">
             Dallo stampaggio all’assemblaggio, eccellenza in componenti per
             serrature con free pass al mercato.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -113,12 +113,12 @@ export const Content = () => {
             </svg>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Ceramico</h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm ">
             Vent’anni di eccellenza in componenti per ceramica, con soluzioni su
             misura e tecnologia avanzata.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform p-8 rounded shadow-xl sm:p-8 hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-orange-accent-400"
@@ -135,7 +135,7 @@ export const Content = () => {
             </svg>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Packaging</h6>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm ">
             Precisione e innovazione definiscono la fornitura di componenti
             meccanici di alta qualità e sistemi completi per i leader
             dell'industria del packaging.

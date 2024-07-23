@@ -11,7 +11,7 @@ export const Header = () => {
           autoPlay
           loop
           muted
-          style={{ width: "100%", height: "500px", objectFit: "cover" }}
+          style={{ width: "100%", height: "900px", objectFit: "cover" }}
         />
       ) : (
         <video
@@ -19,7 +19,7 @@ export const Header = () => {
           autoPlay
           loop
           muted
-          style={{ width: "100%", height: "1000px", objectFit: "cover" }}
+          style={{ width: "100%", height: "1400px", objectFit: "cover" }}
         />
       )}
     </div>

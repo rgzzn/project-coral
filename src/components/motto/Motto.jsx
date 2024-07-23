@@ -4,7 +4,7 @@ export const Motto = () => {
       <div className="p-8 rounded shadow-xl sm:p-16">
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
               Tecnologie meccaniche a
               <br className="hidden md:block" />
               servizio di impresa,{" "}
