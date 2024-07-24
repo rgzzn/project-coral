@@ -59,7 +59,7 @@ const elettrodomestico = () => {
                   />
                 </svg>
                 <a
-                  href="#"
+                  href="/settori"
                   class="ms-1 text-sm font-medium text-gray-700 hover:text-orange-accent-400 md:ms-2 dark:text-gray-400 dark:hover:text-white"
                 >
                   Settori

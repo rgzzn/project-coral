@@ -9,6 +9,7 @@ import Arredamento from "./pages/arredamento";
 import Serrature from "./pages/serrature";
 import Ceramico from "./pages/ceramico";
 import Packaging from "./pages/packaging";
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/settori/serrature" element={<SerraturePage />} />
           <Route path="/settori/ceramico" element={<CeramicoPage />} />
           <Route path="/settori/packaging" element={<PackagingPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </div>
     </BrowserRouter>
@@ -91,6 +93,14 @@ function PackagingPage() {
   return (
     <div>
       <Packaging />
+    </div>
+  );
+}
+
+function ContactPage() {
+  return (
+    <div>
+      <Contact />
     </div>
   );
 }

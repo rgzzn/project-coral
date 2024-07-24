@@ -3,18 +3,18 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logoAllWhite from "../../assets/logoAllWhite.svg";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
+  { name: "Home", href: "/", current: false },
   { name: "Settori", href: "/settori", current: false },
   { name: "Lavorazioni", href: "#", current: false },
   { name: "Know How", href: "#", current: false },
   { name: "Parco Macchine", href: "#", current: false },
   { name: "Referenze", href: "#", current: false },
   { name: "Case History", href: "#", current: false },
-  { name: "Contatti", href: "/contact", current: false },
+  { name: "Contatti", href: "/contact", current: true },
 ];
 
 function classNames(...classes) {
@@ -41,13 +41,12 @@ export default function Nav() {
               />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
               <img alt="Bipres" src={logoAllWhite} className="h-8 w-auto" />
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                {/* menu items */}
                 {navigation.map((item) => (
                   <a
                     key={item.name}

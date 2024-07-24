@@ -14,7 +14,7 @@ const navigation = [
   { name: "Parco Macchine", href: "#", current: false },
   { name: "Referenze", href: "#", current: false },
   { name: "Case History", href: "#", current: false },
-  { name: "Contatti", href: "#", current: false },
+  { name: "Contatti", href: "/contact", current: false },
 ];
 
 function classNames(...classes) {
