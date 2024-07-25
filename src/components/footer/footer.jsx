@@ -65,7 +65,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/settore/serrature"
+                    href="/settori/serrature"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Serrature

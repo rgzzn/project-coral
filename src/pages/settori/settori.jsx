@@ -1,8 +1,8 @@
 import React from "react";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
-import { ContentHover } from "../components/content/content_hover";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
+import { ContentHover } from "../../components/content/contentHoverSettori";
 
 const Settori = () => {
   return (

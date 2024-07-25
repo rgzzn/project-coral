@@ -1,19 +1,17 @@
 import React from "react";
 import { FaRegDotCircle } from "react-icons/fa";
 
-import elettrodomestico_1 from "../assets/settori/elettromestico/eleddromestico_1.jpg";
-import elettrodomestico_2 from "../assets/settori/elettromestico/eleddromestico_2.jpg";
-import elettrodomestico_3 from "../assets/settori/elettromestico/eleddromestico_3.jpg";
-import elettrodomestico_4 from "../assets/settori/elettromestico/eleddromestico_4.jpg";
-import elettrodomestico_5 from "../assets/settori/elettromestico/eleddromestico_5.jpg";
-import elettrodomestico_6 from "../assets/settori/elettromestico/eleddromestico_6.jpg";
-import elettrodomestico_7 from "../assets/settori/elettromestico/eleddromestico_7.jpg";
-import elettrodomestico_8 from "../assets/settori/elettromestico/eleddromestico_8.jpg";
+import arredamento_1 from "../../assets/settori/arredamento/arredamento_1.jpg";
+import arredamento_2 from "../../assets/settori/arredamento/arredamento_2.jpg";
+import arredamento_3 from "../../assets/settori/arredamento/arredamento_3.jpg";
+import arredamento_4 from "../../assets/settori/arredamento/arredamento_4.jpg";
+import arredamento_5 from "../../assets/settori/arredamento/arredamento_5.jpg";
+import arredamento_6 from "../../assets/settori/arredamento/arredamento_6.jpg";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 
-const elettrodomestico = () => {
+const Arredamento = () => {
   return (
     <div>
       <Nav />
@@ -84,7 +82,7 @@ const elettrodomestico = () => {
                   />
                 </svg>
                 <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                  Elettrodomestico
+                  Arredamento grande distribuzione
                 </span>
               </div>
             </li>
@@ -98,26 +96,29 @@ const elettrodomestico = () => {
             <div className="flex flex-col justify-center">
               <div className="max-w-xl mb-6">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+                  Settore
                   <br className="hidden md:block" />
-                  Settore{" "}
+                  Arredamento grande{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      Elettrodomestico
+                      Distribuzione
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Bipres è storicamente legata alla produzione di
-                  componentistica per l’elettrodomestico, in particolare forni
-                  ma anche reparto del bianco. Negli ultimi anni la produzione
-                  si è spostata sull’alto di gamma estetico (domino hob) in
-                  acciaio satinato e sulle protezioni inferiori (lamiera
-                  smaltabile), su cui viene montata la componentistica elettrica
-                  e gas per il funzionamento del forno. Abbiamo tecnologia per
-                  produrre grandi serie da milioni di pezzi/anno fino ad
-                  arrivare a prototipi di un solo pezzo per verificare
-                  fattibilità in fase di pre-produzione.
+                  Bipres è legata a leader di mercato in ambito di realizzazione
+                  componentistica meccanica per la grande distribuzione. Da
+                  particolari per il montaggio dello scaffale a scale vendute in
+                  kit e montabili dall’utilizzatore finale. I particolari,
+                  realizzati con materiali strutturali certificati, sono
+                  stampati saldati da Bipres con stampi nati in seno alle nostre
+                  divisioni tecniche che si avvalgono di fornitura per la
+                  progettazione e realizzazione delle attrezzature di elevata
+                  competenza e in grado di risolvere diversi problemi al nostro
+                  cliente (antisdruciolo, precisione al montaggio seriale,
+                  filettatura automatica su stampo, qualità estetica, anti
+                  taglio, etc..)
                 </p>
               </div>
               <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
@@ -126,24 +127,25 @@ const elettrodomestico = () => {
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Produzione di componentistica per l’elettrodomestico
+                    Realizzazione di scale vendute in kit e montabili
+                    dall'utilizzatore finale
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Alto di gamma estetico in acciaio satinato e protezioni
-                    inferiori
+                    Particolari realizzati con materiali strutturali certificati
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Tecnologia per produrre grandi serie da milioni di
-                    pezzi/anno
+                    Stampi progettati da Bipres all'interno delle divisioni
+                    tecniche
                   </li>
                 </ul>
-                {/* <ul className="space-y-3">
+                {/* 
+                <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1">
                       <svg
@@ -204,7 +206,7 @@ const elettrodomestico = () => {
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src={elettrodomestico_4}
+                src={arredamento_5}
                 alt=""
               />
             </div>
@@ -219,7 +221,7 @@ const elettrodomestico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_1}
+                  src={arredamento_1}
                   alt="Person"
                 />
               </div>
@@ -228,7 +230,7 @@ const elettrodomestico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_2}
+                  src={arredamento_2}
                   alt="Person"
                 />
               </div>
@@ -237,7 +239,7 @@ const elettrodomestico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_3}
+                  src={arredamento_3}
                   alt="Person"
                 />
               </div>
@@ -246,7 +248,7 @@ const elettrodomestico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_5}
+                  src={arredamento_4}
                   alt="Person"
                 />
               </div>
@@ -255,25 +257,7 @@ const elettrodomestico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_6}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_7}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={elettrodomestico_8}
+                  src={arredamento_6}
                   alt="Person"
                 />
               </div>
@@ -286,4 +270,4 @@ const elettrodomestico = () => {
   );
 };
 
-export default elettrodomestico;
+export default Arredamento;

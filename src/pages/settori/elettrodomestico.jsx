@@ -1,20 +1,19 @@
 import React from "react";
 import { FaRegDotCircle } from "react-icons/fa";
 
-import ceramico_1 from "../assets/settori/ceramico/ceramico_1.jpg";
-import ceramico_3 from "../assets/settori/ceramico/ceramico_3.jpg";
-import ceramico_4 from "../assets/settori/ceramico/ceramico_4.jpg";
-import ceramico_5 from "../assets/settori/ceramico/ceramico_5.jpg";
-import ceramico_6 from "../assets/settori/ceramico/ceramico_6.jpg";
-import ceramico_7 from "../assets/settori/ceramico/ceramico_7.jpg";
-import ceramico_8 from "../assets/settori/ceramico/ceramico_8.jpg";
-import ceramico_9 from "../assets/settori/ceramico/ceramico_9.jpg";
-import ceramico_10 from "../assets/settori/ceramico/ceramico_10.jpg";
+import elettrodomestico_1 from "../../assets/settori/elettromestico/eleddromestico_1.jpg";
+import elettrodomestico_2 from "../../assets/settori/elettromestico/eleddromestico_2.jpg";
+import elettrodomestico_3 from "../../assets/settori/elettromestico/eleddromestico_3.jpg";
+import elettrodomestico_4 from "../../assets/settori/elettromestico/eleddromestico_4.jpg";
+import elettrodomestico_5 from "../../assets/settori/elettromestico/eleddromestico_5.jpg";
+import elettrodomestico_6 from "../../assets/settori/elettromestico/eleddromestico_6.jpg";
+import elettrodomestico_7 from "../../assets/settori/elettromestico/eleddromestico_7.jpg";
+import elettrodomestico_8 from "../../assets/settori/elettromestico/eleddromestico_8.jpg";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 
-const Ceramico = () => {
+const elettrodomestico = () => {
   return (
     <div>
       <Nav />
@@ -85,7 +84,7 @@ const Ceramico = () => {
                   />
                 </svg>
                 <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                  Ceramico
+                  Elettrodomestico
                 </span>
               </div>
             </li>
@@ -104,18 +103,21 @@ const Ceramico = () => {
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      Ceramico
+                      Elettrodomestico
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Da oltre 20 anni realizziamo parti di impianti per linee
-                  ceramiche per aziende leader di mercato. Nello specifico
-                  realizziamo centraline idrauliche, blocchi idraulici, sistemi
-                  di caricamento, pompe, gruppi di mescolamento in acciaio inox
-                  AISI304, macchine complete a distinta base con impianti
-                  elettrici, pneumatici, idraulici. Le macchine vengono
-                  collaudate con simulatori e personalizzate a commessa cliente.
+                  Bipres è storicamente legata alla produzione di
+                  componentistica per l’elettrodomestico, in particolare forni
+                  ma anche reparto del bianco. Negli ultimi anni la produzione
+                  si è spostata sull’alto di gamma estetico (domino hob) in
+                  acciaio satinato e sulle protezioni inferiori (lamiera
+                  smaltabile), su cui viene montata la componentistica elettrica
+                  e gas per il funzionamento del forno. Abbiamo tecnologia per
+                  produrre grandi serie da milioni di pezzi/anno fino ad
+                  arrivare a prototipi di un solo pezzo per verificare
+                  fattibilità in fase di pre-produzione.
                 </p>
               </div>
               <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
@@ -124,25 +126,24 @@ const Ceramico = () => {
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Realizzazione di parti di impianti per linee ceramiche per
-                    aziende leader
+                    Produzione di componentistica per l’elettrodomestico
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Realizzazione di centraline idrauliche e blocchi idraulici
-                    di caricamento
+                    Alto di gamma estetico in acciaio satinato e protezioni
+                    inferiori
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Personalizzazione e collaudo delle macchine con simulatori
+                    Tecnologia per produrre grandi serie da milioni di
+                    pezzi/anno
                   </li>
                 </ul>
-                {/* 
-                <ul className="space-y-3">
+                {/* <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1">
                       <svg
@@ -203,7 +204,7 @@ const Ceramico = () => {
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src={ceramico_1}
+                src={elettrodomestico_4}
                 alt=""
               />
             </div>
@@ -218,7 +219,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_10}
+                  src={elettrodomestico_1}
                   alt="Person"
                 />
               </div>
@@ -227,7 +228,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_3}
+                  src={elettrodomestico_2}
                   alt="Person"
                 />
               </div>
@@ -236,7 +237,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_4}
+                  src={elettrodomestico_3}
                   alt="Person"
                 />
               </div>
@@ -245,7 +246,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_5}
+                  src={elettrodomestico_5}
                   alt="Person"
                 />
               </div>
@@ -254,7 +255,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_6}
+                  src={elettrodomestico_6}
                   alt="Person"
                 />
               </div>
@@ -263,7 +264,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_7}
+                  src={elettrodomestico_7}
                   alt="Person"
                 />
               </div>
@@ -272,16 +273,7 @@ const Ceramico = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_8}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={ceramico_9}
+                  src={elettrodomestico_8}
                   alt="Person"
                 />
               </div>
@@ -294,4 +286,4 @@ const Ceramico = () => {
   );
 };
 
-export default Ceramico;
+export default elettrodomestico;

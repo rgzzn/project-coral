@@ -1,19 +1,20 @@
 import React from "react";
+import { FaRegDotCircle } from "react-icons/fa";
 
-import caffe_1 from "../assets/settori/caffe/caffe_1.jpg";
-import caffe_2 from "../assets/settori/caffe/caffe_2.jpg";
-import caffe_3 from "../assets/settori/caffe/caffe_3.jpg";
-import caffe_4 from "../assets/settori/caffe/caffe_4.jpg";
-import caffe_5 from "../assets/settori/caffe/caffe_5.jpg";
-import caffe_6 from "../assets/settori/caffe/caffe_6.jpg";
-import caffe_7 from "../assets/settori/caffe/caffe_7.jpg";
-import caffe_8 from "../assets/settori/caffe/caffe_8.jpg";
-import caffe_9 from "../assets/settori/caffe/caffe_9.jpg";
+import ceramico_1 from "../../assets/settori/ceramico/ceramico_1.jpg";
+import ceramico_3 from "../../assets/settori/ceramico/ceramico_3.jpg";
+import ceramico_4 from "../../assets/settori/ceramico/ceramico_4.jpg";
+import ceramico_5 from "../../assets/settori/ceramico/ceramico_5.jpg";
+import ceramico_6 from "../../assets/settori/ceramico/ceramico_6.jpg";
+import ceramico_7 from "../../assets/settori/ceramico/ceramico_7.jpg";
+import ceramico_8 from "../../assets/settori/ceramico/ceramico_8.jpg";
+import ceramico_9 from "../../assets/settori/ceramico/ceramico_9.jpg";
+import ceramico_10 from "../../assets/settori/ceramico/ceramico_10.jpg";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 
-const Caffe = () => {
+const Ceramico = () => {
   return (
     <div>
       <Nav />
@@ -84,7 +85,7 @@ const Caffe = () => {
                   />
                 </svg>
                 <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                  Macchine per il caffè
+                  Ceramico
                 </span>
               </div>
             </li>
@@ -98,53 +99,49 @@ const Caffe = () => {
             <div className="flex flex-col justify-center">
               <div className="max-w-xl mb-6">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
-                  Settore
                   <br className="hidden md:block" />
-                  Macchine per il{" "}
+                  Settore{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      caffè
+                      Ceramico
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Dal 2008 forniamo componentistica estetica e strutturale ad
-                  aziende leader nel settore della produzione di macchine del
-                  caffè. Le parti estetiche sono realizzate in acciaio aisi 304
-                  lucido oppure in acciaio aisi 304 satinato, le parti
-                  strutturali con idonei materiali ferrosi certificati. Molti
-                  dei particolari prodotti e ingegnerizzati sono frutto della
-                  collaborazione che instauriamo con i nostri clienti, ai quali
-                  forniamo soluzioni tecnologiche e di riduzione costo per
-                  potergli permettere di consolidare la loro leadership di
-                  mercato.
+                  Da oltre 20 anni realizziamo parti di impianti per linee
+                  ceramiche per aziende leader di mercato. Nello specifico
+                  realizziamo centraline idrauliche, blocchi idraulici, sistemi
+                  di caricamento, pompe, gruppi di mescolamento in acciaio inox
+                  AISI304, macchine complete a distinta base con impianti
+                  elettrici, pneumatici, idraulici. Le macchine vengono
+                  collaudate con simulatori e personalizzate a commessa cliente.
                 </p>
               </div>
               <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
-                {/* 
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Produzione di componentistica per l’elettrodomestico
+                    Realizzazione di parti di impianti per linee ceramiche per
+                    aziende leader
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Alto di gamma estetico in acciaio satinato e protezioni
-                    inferiori
+                    Realizzazione di centraline idrauliche e blocchi idraulici
+                    di caricamento
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Tecnologia per produrre grandi serie da milioni di
-                    pezzi/anno
+                    Personalizzazione e collaudo delle macchine con simulatori
                   </li>
                 </ul>
+                {/* 
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1">
@@ -206,7 +203,7 @@ const Caffe = () => {
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src={caffe_9}
+                src={ceramico_1}
                 alt=""
               />
             </div>
@@ -221,7 +218,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_1}
+                  src={ceramico_10}
                   alt="Person"
                 />
               </div>
@@ -230,7 +227,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_2}
+                  src={ceramico_3}
                   alt="Person"
                 />
               </div>
@@ -239,7 +236,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_3}
+                  src={ceramico_4}
                   alt="Person"
                 />
               </div>
@@ -248,7 +245,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_4}
+                  src={ceramico_5}
                   alt="Person"
                 />
               </div>
@@ -257,7 +254,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_5}
+                  src={ceramico_6}
                   alt="Person"
                 />
               </div>
@@ -266,7 +263,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_6}
+                  src={ceramico_7}
                   alt="Person"
                 />
               </div>
@@ -275,7 +272,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_7}
+                  src={ceramico_8}
                   alt="Person"
                 />
               </div>
@@ -284,7 +281,7 @@ const Caffe = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={caffe_8}
+                  src={ceramico_9}
                   alt="Person"
                 />
               </div>
@@ -297,4 +294,4 @@ const Caffe = () => {
   );
 };
 
-export default Caffe;
+export default Ceramico;

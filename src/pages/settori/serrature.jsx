@@ -1,18 +1,18 @@
 import React from "react";
 import { FaRegDotCircle } from "react-icons/fa";
 
-import serrature_1 from "../assets/settori/serrature/serrature_1.jpg";
-import serrature_2 from "../assets/settori/serrature/serrature_2.jpg";
-import serrature_3 from "../assets/settori/serrature/serrature_3.jpg";
-import serrature_4 from "../assets/settori/serrature/serrature_4.jpg";
-import serrature_5 from "../assets/settori/serrature/serrature_5.jpg";
-import serrature_6 from "../assets/settori/serrature/serrature_6.jpg";
-import serrature_7 from "../assets/settori/serrature/serrature_7.jpg";
-import serrature_8 from "../assets/settori/serrature/serrature_8.jpg";
-import serrature_9 from "../assets/settori/serrature/serrature_9.jpg";
+import serrature_1 from "../../assets/settori/serrature/serrature_1.jpg";
+import serrature_2 from "../../assets/settori/serrature/serrature_2.jpg";
+import serrature_3 from "../../assets/settori/serrature/serrature_3.jpg";
+import serrature_4 from "../../assets/settori/serrature/serrature_4.jpg";
+import serrature_5 from "../../assets/settori/serrature/serrature_5.jpg";
+import serrature_6 from "../../assets/settori/serrature/serrature_6.jpg";
+import serrature_7 from "../../assets/settori/serrature/serrature_7.jpg";
+import serrature_8 from "../../assets/settori/serrature/serrature_8.jpg";
+import serrature_9 from "../../assets/settori/serrature/serrature_9.jpg";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 const Serrature = () => {
   return (
     <div>

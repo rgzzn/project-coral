@@ -2,14 +2,15 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Homepage from "./pages/homepage";
-import Settori from "./pages/settori";
-import Elettrodomestico from "./pages/elettrodomestico";
-import Caffe from "./pages/macchine_caffe";
-import Arredamento from "./pages/arredamento";
-import Serrature from "./pages/serrature";
-import Ceramico from "./pages/ceramico";
-import Packaging from "./pages/packaging";
+import Settori from "./pages/settori/settori";
+import Elettrodomestico from "./pages/settori/elettrodomestico";
+import Caffe from "./pages/settori/macchine_caffe";
+import Arredamento from "./pages/settori/arredamento";
+import Serrature from "./pages/settori/serrature";
+import Ceramico from "./pages/settori/ceramico";
+import Packaging from "./pages/settori/packaging";
 import Contact from "./pages/contact";
+import Lavorazioni from "./pages/lavorazioni/lavorazioni";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/settori/ceramico" element={<CeramicoPage />} />
           <Route path="/settori/packaging" element={<PackagingPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/lavorazioni" element={<LavorazioniPage />} />
         </Routes>
       </div>
     </BrowserRouter>
@@ -101,6 +103,14 @@ function ContactPage() {
   return (
     <div>
       <Contact />
+    </div>
+  );
+}
+
+function LavorazioniPage() {
+  return (
+    <div>
+      <Lavorazioni />
     </div>
   );
 }

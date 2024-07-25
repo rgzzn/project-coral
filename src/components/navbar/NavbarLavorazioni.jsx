@@ -9,12 +9,12 @@ import logoAllWhite from "../../assets/logoAllWhite.svg";
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Settori", href: "/settori", current: false },
-  { name: "Lavorazioni", href: "/lavorazioni", current: false },
+  { name: "Lavorazioni", href: "/lavorazioni", current: true },
   { name: "Know How", href: "#", current: false },
   { name: "Parco Macchine", href: "#", current: false },
   { name: "Referenze", href: "#", current: false },
   { name: "Case History", href: "#", current: false },
-  { name: "Contatti", href: "/contact", current: true },
+  { name: "Contatti", href: "/contact", current: false },
 ];
 
 function classNames(...classes) {

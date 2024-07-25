@@ -1,11 +1,11 @@
 import React from "react";
 import { FaRegDotCircle } from "react-icons/fa";
 
-import packaging_1 from "../assets/settori/packaging/packaging_1.jpg";
+import packaging_1 from "../../assets/settori/packaging/packaging_1.jpg";
 
-import { Comega } from "../components/content/comega";
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import { Comega } from "../../components/content/comega";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 
 const Packaging = () => {
   return (

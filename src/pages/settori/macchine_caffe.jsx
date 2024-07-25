@@ -1,17 +1,19 @@
 import React from "react";
-import { FaRegDotCircle } from "react-icons/fa";
 
-import arredamento_1 from "../assets/settori/arredamento/arredamento_1.jpg";
-import arredamento_2 from "../assets/settori/arredamento/arredamento_2.jpg";
-import arredamento_3 from "../assets/settori/arredamento/arredamento_3.jpg";
-import arredamento_4 from "../assets/settori/arredamento/arredamento_4.jpg";
-import arredamento_5 from "../assets/settori/arredamento/arredamento_5.jpg";
-import arredamento_6 from "../assets/settori/arredamento/arredamento_6.jpg";
+import caffe_1 from "../../assets/settori/caffe/caffe_1.jpg";
+import caffe_2 from "../../assets/settori/caffe/caffe_2.jpg";
+import caffe_3 from "../../assets/settori/caffe/caffe_3.jpg";
+import caffe_4 from "../../assets/settori/caffe/caffe_4.jpg";
+import caffe_5 from "../../assets/settori/caffe/caffe_5.jpg";
+import caffe_6 from "../../assets/settori/caffe/caffe_6.jpg";
+import caffe_7 from "../../assets/settori/caffe/caffe_7.jpg";
+import caffe_8 from "../../assets/settori/caffe/caffe_8.jpg";
+import caffe_9 from "../../assets/settori/caffe/caffe_9.jpg";
 
-import Nav from "../components/navbar/NavbarSettori";
-import { Foot as Footer } from "../components/footer/footer";
+import Nav from "../../components/navbar/NavbarSettori";
+import { Foot as Footer } from "../../components/footer/footer";
 
-const Arredamento = () => {
+const Caffe = () => {
   return (
     <div>
       <Nav />
@@ -82,7 +84,7 @@ const Arredamento = () => {
                   />
                 </svg>
                 <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                  Arredamento grande distribuzione
+                  Macchine per il caffè
                 </span>
               </div>
             </li>
@@ -98,53 +100,51 @@ const Arredamento = () => {
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
                   Settore
                   <br className="hidden md:block" />
-                  Arredamento grande{" "}
+                  Macchine per il{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      Distribuzione
+                      caffè
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Bipres è legata a leader di mercato in ambito di realizzazione
-                  componentistica meccanica per la grande distribuzione. Da
-                  particolari per il montaggio dello scaffale a scale vendute in
-                  kit e montabili dall’utilizzatore finale. I particolari,
-                  realizzati con materiali strutturali certificati, sono
-                  stampati saldati da Bipres con stampi nati in seno alle nostre
-                  divisioni tecniche che si avvalgono di fornitura per la
-                  progettazione e realizzazione delle attrezzature di elevata
-                  competenza e in grado di risolvere diversi problemi al nostro
-                  cliente (antisdruciolo, precisione al montaggio seriale,
-                  filettatura automatica su stampo, qualità estetica, anti
-                  taglio, etc..)
+                  Dal 2008 forniamo componentistica estetica e strutturale ad
+                  aziende leader nel settore della produzione di macchine del
+                  caffè. Le parti estetiche sono realizzate in acciaio aisi 304
+                  lucido oppure in acciaio aisi 304 satinato, le parti
+                  strutturali con idonei materiali ferrosi certificati. Molti
+                  dei particolari prodotti e ingegnerizzati sono frutto della
+                  collaborazione che instauriamo con i nostri clienti, ai quali
+                  forniamo soluzioni tecnologiche e di riduzione costo per
+                  potergli permettere di consolidare la loro leadership di
+                  mercato.
                 </p>
               </div>
               <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
+                {/* 
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Realizzazione di scale vendute in kit e montabili
-                    dall'utilizzatore finale
+                    Produzione di componentistica per l’elettrodomestico
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Particolari realizzati con materiali strutturali certificati
+                    Alto di gamma estetico in acciaio satinato e protezioni
+                    inferiori
                   </li>
                   <li className="flex">
                     <span className="mr-1 flex items-center">
                       <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
                     </span>
-                    Stampi progettati da Bipres all'interno delle divisioni
-                    tecniche
+                    Tecnologia per produrre grandi serie da milioni di
+                    pezzi/anno
                   </li>
                 </ul>
-                {/* 
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="mr-1">
@@ -206,7 +206,7 @@ const Arredamento = () => {
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src={arredamento_5}
+                src={caffe_9}
                 alt=""
               />
             </div>
@@ -221,7 +221,7 @@ const Arredamento = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={arredamento_1}
+                  src={caffe_1}
                   alt="Person"
                 />
               </div>
@@ -230,7 +230,7 @@ const Arredamento = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={arredamento_2}
+                  src={caffe_2}
                   alt="Person"
                 />
               </div>
@@ -239,7 +239,7 @@ const Arredamento = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={arredamento_3}
+                  src={caffe_3}
                   alt="Person"
                 />
               </div>
@@ -248,7 +248,7 @@ const Arredamento = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={arredamento_4}
+                  src={caffe_4}
                   alt="Person"
                 />
               </div>
@@ -257,7 +257,34 @@ const Arredamento = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={arredamento_6}
+                  src={caffe_5}
+                  alt="Person"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                <img
+                  className="object-cover w-full h-56 md:h-64 xl:h-80"
+                  src={caffe_6}
+                  alt="Person"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                <img
+                  className="object-cover w-full h-56 md:h-64 xl:h-80"
+                  src={caffe_7}
+                  alt="Person"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                <img
+                  className="object-cover w-full h-56 md:h-64 xl:h-80"
+                  src={caffe_8}
                   alt="Person"
                 />
               </div>
@@ -270,4 +297,4 @@ const Arredamento = () => {
   );
 };
 
-export default Arredamento;
+export default Caffe;

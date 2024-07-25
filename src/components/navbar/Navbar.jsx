@@ -9,7 +9,7 @@ import logoAllWhite from "../../assets/logoAllWhite.svg";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Settori", href: "/settori", current: false },
-  { name: "Lavorazioni", href: "#", current: false },
+  { name: "Lavorazioni", href: "/lavorazioni", current: false },
   { name: "Know How", href: "#", current: false },
   { name: "Parco Macchine", href: "#", current: false },
   { name: "Referenze", href: "#", current: false },
