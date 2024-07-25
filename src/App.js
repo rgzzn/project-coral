@@ -1,5 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Homepage from "./pages/homepage";
 import Settori from "./pages/settori";
@@ -13,24 +15,31 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/settori" element={<SettoriPage />} />
-          <Route
-            path="/settori/elettrodomestico"
-            element={<ElettrodomesticoPage />}
-          />
-          <Route path="/settori/caffe" element={<CaffePage />} />
-          <Route path="/settori/arredamento" element={<ArredamentoPage />} />
-          <Route path="/settori/serrature" element={<SerraturePage />} />
-          <Route path="/settori/ceramico" element={<CeramicoPage />} />
-          <Route path="/settori/packaging" element={<PackagingPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <Analytics>
+      <SpeedInsights>
+        <BrowserRouter>
+          <div className="App">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/settori" element={<SettoriPage />} />
+              <Route
+                path="/settori/elettrodomestico"
+                element={<ElettrodomesticoPage />}
+              />
+              <Route path="/settori/caffe" element={<CaffePage />} />
+              <Route
+                path="/settori/arredamento"
+                element={<ArredamentoPage />}
+              />
+              <Route path="/settori/serrature" element={<SerraturePage />} />
+              <Route path="/settori/ceramico" element={<CeramicoPage />} />
+              <Route path="/settori/packaging" element={<PackagingPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Routes>
+          </div>
+        </BrowserRouter>
+      </SpeedInsights>
+    </Analytics>
   );
 }
 
