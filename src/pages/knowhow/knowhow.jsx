@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "../../components/navbar/NavbarLavorazioni";
-import { ContentHover } from "../../components/content/contentHoverLavorazioni";
+import Nav from "../../components/navbar/NavbarKnowhow";
+import { ContentHover } from "../../components/content/contentHoverKnowhow";
 import { Foot as Footer } from "../../components/footer/footer";
 
-const Lavorazioni = () => {
+const KnowHow = () => {
   return (
     <div>
       <Nav />
@@ -49,10 +49,10 @@ const Lavorazioni = () => {
                   />
                 </svg>
                 <a
-                  href="/lavorazioni"
+                  href="/knowhow"
                   class="ms-1 text-sm font-medium text-gray-700 hover:text-orange-accent-400 md:ms-2 dark:text-gray-400 dark:hover:text-white"
                 >
-                  Lavorazioni
+                  Know How
                 </a>
               </div>
             </li>
@@ -65,4 +65,4 @@ const Lavorazioni = () => {
   );
 };
 
-export default Lavorazioni;
+export default KnowHow;

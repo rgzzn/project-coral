@@ -10,7 +10,7 @@ const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Settori", href: "/settori", current: true },
   { name: "Lavorazioni", href: "/lavorazioni", current: false },
-  { name: "Know How", href: "#", current: false },
+  { name: "Know How", href: "/knowhow", current: false },
   { name: "Parco Macchine", href: "#", current: false },
   { name: "Referenze", href: "#", current: false },
   { name: "Case History", href: "#", current: false },

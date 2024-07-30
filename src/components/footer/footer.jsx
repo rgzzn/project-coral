@@ -96,7 +96,7 @@ export const Foot = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/lavorazioni/carpenteria"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Carpenteria Metallica
@@ -104,7 +104,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/lavorazioni/stampaggio"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Stampaggio Lamiere Acciaio
@@ -112,7 +112,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/lavorazioni/cnc"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Lavorazioni Macchine CNC
@@ -120,7 +120,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/lavorazioni/assemblaggio"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Assemblaggio Gruppi a Commessa
