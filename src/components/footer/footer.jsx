@@ -135,7 +135,7 @@ export const Foot = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/knowhow/fattibilita"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Analisi fattibilità e preventivazione
@@ -143,7 +143,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/knowhow/prototipazione"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Prototipazione
@@ -151,7 +151,7 @@ export const Foot = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/knowhow/commessa"
                     className="transition-colors duration-300 text-orange-50 hover:text-gray-900"
                   >
                     Gestione Commessa

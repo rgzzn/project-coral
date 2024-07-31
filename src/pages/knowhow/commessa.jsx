@@ -4,8 +4,8 @@ import { FaRegDotCircle } from "react-icons/fa";
 
 import commessa_1 from "../../assets/knowhow/commessa/commessa_1.jpg";
 import commessa_2 from "../../assets/knowhow/commessa/commessa_2.jpg";
-import commessa_3 from "../../assets/knowhow/commessa/commessa_3.jpeg";
-import commessa_4 from "../../assets/knowhow/commessa/commessa_4.png";
+import commessa_3 from "../../assets/knowhow/commessa/commessa_3.jpg";
+import commessa_4 from "../../assets/knowhow/commessa/commessa_4.jpg";
 
 import Nav from "../../components/navbar/NavbarLavorazioni";
 import { Foot as Footer } from "../../components/footer/footer";
@@ -105,49 +105,19 @@ const Commessa = () => {
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Siamo specializzati nel seguire il cliente a partire dalle
-                  esigenze tecniche in fase pre-progettuale, prendendo in
-                  considerazione tutti gli aspetti tecnico/produttivi del futuro
-                  prodotto. Mettiamo sempre a disposizione una dettagliata
-                  analisi di costo e di fattibilità fornendo, a richiesta,
-                  consulenza per la ricerca di soluzioni alternative. Il nostro
-                  qualificato ed ampio sistema di fornitori/consulenti è a
-                  Vostra diposizione per analizzare e valutare:
+                  Bipres gestisce autonomamente commesse con assemblati da più
+                  di 5000 codici. Dal progetto scegliamo la fornitura più
+                  adeguata in rapporto al costo e alla qualità per la specifica
+                  esigenza del cliente. In fase di sviluppo di commessa siamo in
+                  grado di consigliare il cliente per eventuali riduzioni costo.
+                  Qualunque problematica di tempi e costi o lavorazioni viene
+                  presa in considerazione con il cliente in piena ottica di
+                  partership. Anche assumendoci la responsabilità di verificare
+                  lavori a consuntivo o a prezzo imposto come prima
+                  impostazione. Seguiamo il motto del nostro fondatore Emilio
+                  Biserni: “Quando un cliente ha un problema gli deve venire in
+                  mente che la BIPRES lo può risolvere”.
                 </p>
-              </div>
-              <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
-                <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1 flex items-center">
-                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
-                    </span>
-                    Componenti meccanici unici
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1 flex items-center">
-                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
-                    </span>
-                    Assemblati
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1 flex items-center">
-                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
-                    </span>
-                    Pura gestione di trattamenti sui componenti
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1 flex items-center">
-                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
-                    </span>
-                    Modifiche strutturali e/o di assemblaggio
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1 flex items-center">
-                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
-                    </span>
-                    Ottimizzazioni di costo
-                  </li>
-                </ul>
               </div>
             </div>
             <div>

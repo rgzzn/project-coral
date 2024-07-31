@@ -1,10 +1,11 @@
 import React from "react";
-import cnc_1 from "../../assets/lavorazioni/cnc/cnc_1.jpg";
 
-import assemblaggio_1 from "../../assets/lavorazioni/assemblaggio/assemblaggio_1.jpg";
-import assemblaggio_2 from "../../assets/lavorazioni/assemblaggio/assemblaggio_2.jpg";
-import assemblaggio_3 from "../../assets/lavorazioni/assemblaggio/assemblaggio_3.jpg";
-import assemblaggio_4 from "../../assets/lavorazioni/assemblaggio/assemblaggio_4.jpg";
+import { FaRegDotCircle } from "react-icons/fa";
+
+import analisi_1 from "../../assets/knowhow/analisi/analisi_1.jpg";
+import analisi_2 from "../../assets/knowhow/analisi/analisi_2.jpg";
+import analisi_3 from "../../assets/knowhow/analisi/analisi_3.jpeg";
+import analisi_4 from "../../assets/knowhow/analisi/analisi_4.png";
 
 import Nav from "../../components/navbar/NavbarLavorazioni";
 import { Foot as Footer } from "../../components/footer/footer";
@@ -80,7 +81,7 @@ const Fattibilita = () => {
                   />
                 </svg>
                 <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                  Gestione Commessa
+                  Analisi fattibilità e preventivazione
                 </span>
               </div>
             </li>
@@ -95,39 +96,100 @@ const Fattibilita = () => {
               <div className="max-w-xl mb-6">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
                   <br className="hidden md:block" />
-                  Lavorazioni Meccaniche{" "}
+                  Analisti fattibilità e{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      CNC
+                      Preventivazione
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  Bipres ha fra il suo parco macchine torni a controllo numerico
-                  di ripresa, automatici da barra, e di grosse dimensioni. Siamo
-                  in grado di tornire tutti i tipi di materiali ferrosi (acciaio
-                  inox incluso) e non ferrosi. La dimensione massima tornibile
-                  con il nuovo tornio COMEV è diametro 1000 per un lunghezza di
-                  3000 mm. Torniamo anche con inserti in ceramica su temprato in
-                  sostituzione della rettifica ottenendo rugosità molto basse.
-                  Nel parco macchine abbiamo anche un GILDEMAISTER a CNC con
-                  mandrini motorizzati che ci permette di realizzare pezzi
-                  complessi senza l’ausilio di centri di lavoro. Inoltre il
-                  gruppo Bipres dispone di un centro di lavoro avente le
-                  seguenti caratteristiche: Fresatrice SORALUCE SP 10000,
-                  montante mobile, tavola 10000×1200, magazzino 64 utensili,
-                  lavorazioni ortogonali a 90° 180° 270° ma anche su piani
-                  inclinati nello spazio.
+                  Siamo specializzati nel seguire il cliente a partire dalle
+                  esigenze tecniche in fase pre-progettuale, prendendo in
+                  considerazione tutti gli aspetti tecnico/produttivi del futuro
+                  prodotto. Mettiamo sempre a disposizione una dettagliata
+                  analisi di costo e di fattibilità fornendo, a richiesta,
+                  consulenza per la ricerca di soluzioni alternative. Il nostro
+                  qualificato ed ampio sistema di fornitori/consulenti è a
+                  Vostra diposizione per analizzare e valutare:
                 </p>
+              </div>
+              <div className="grid space-y-3 sm:gap-1 sm:grid-cols-1 sm:space-y-0">
+                <ul className="space-y-3">
+                  <li className="flex">
+                    <span className="mr-1 flex items-center">
+                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
+                    </span>
+                    Componenti meccanici unici
+                  </li>
+                  <li className="flex">
+                    <span className="mr-1 flex items-center">
+                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
+                    </span>
+                    Assemblati
+                  </li>
+                  <li className="flex">
+                    <span className="mr-1 flex items-center">
+                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
+                    </span>
+                    Pura gestione di trattamenti sui componenti
+                  </li>
+                  <li className="flex">
+                    <span className="mr-1 flex items-center">
+                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
+                    </span>
+                    Modifiche strutturali e/o di assemblaggio
+                  </li>
+                  <li className="flex">
+                    <span className="mr-1 flex items-center">
+                      <FaRegDotCircle className="w-5 h-5 mt-px text-orange-accent-400" />
+                    </span>
+                    Ottimizzazioni di costo
+                  </li>
+                </ul>
               </div>
             </div>
             <div>
               <img
                 className="object-cover w-full h-76 rounded shadow-lg sm:h-116"
-                src={cnc_1}
+                src={analisi_1}
                 alt=""
               />
+            </div>
+          </div>
+          <div>
+            {/* contenitore immagini */}
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                <div>
+                  <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <img
+                      className="object-cover w-full h-56 md:h-64 xl:h-80"
+                      src={analisi_2}
+                      alt="Person"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <img
+                      className="object-cover w-full h-56 md:h-64 xl:h-80"
+                      src={analisi_3}
+                      alt="Person"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <img
+                      className="object-cover w-full h-56 md:h-64 xl:h-80"
+                      src={analisi_4}
+                      alt="Person"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

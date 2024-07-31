@@ -19,6 +19,8 @@ import KnowHow from "./pages/knowhow/knowhow";
 import Commessa from "./pages/knowhow/commessa";
 import Prototipazione from "./pages/knowhow/prototipazione";
 import Fattibilita from "./pages/knowhow/fattibilita";
+import ParcoMacchine from "./pages/macchine/parcoMacchine";
+import Metrologica from "./pages/macchine/metrologica";
 
 function App() {
   return (
@@ -55,6 +57,8 @@ function App() {
             element={<PrototipazionePage />}
           />
           <Route path="/knowhow/fattibilita" element={<FattibilitaPage />} />
+          <Route path="/macchine" element={<ParcoMacchinePage />} />
+          <Route path="/macchine/metrologica" element={<MetrologicaPage />} />
         </Routes>
       </div>
     </BrowserRouter>
@@ -200,6 +204,22 @@ function FattibilitaPage() {
   return (
     <div>
       <Fattibilita />
+    </div>
+  );
+}
+
+function ParcoMacchinePage() {
+  return (
+    <div>
+      <ParcoMacchine />
+    </div>
+  );
+}
+
+function MetrologicaPage() {
+  return (
+    <div>
+      <Metrologica />
     </div>
   );
 }
