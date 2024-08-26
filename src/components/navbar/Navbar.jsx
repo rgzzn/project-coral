@@ -11,7 +11,11 @@ const navigation = [
   { name: "Settori", href: "/settori", current: false },
   { name: "Lavorazioni", href: "/lavorazioni", current: false },
   { name: "Know How", href: "/knowhow", current: false },
+<<<<<<< HEAD
   { name: "Parco Macchine", href: "/macchine", current: false },
+=======
+  { name: "Macchine", href: "#", current: false },
+>>>>>>> 2e700b7 (navbar edit)
   { name: "Referenze", href: "#", current: false },
   { name: "Case History", href: "#", current: false },
   { name: "Contatti", href: "/contact", current: false },
