@@ -23,6 +23,7 @@ import ParcoMacchine from "./pages/macchine/parcoMacchine";
 import Metrologica from "./pages/macchine/metrologica";
 import LavorazioniCNC from "./pages/macchine/lavorazionicnc";
 
+
 function App() {
   return (
     <BrowserRouter>
