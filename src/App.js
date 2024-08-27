@@ -21,6 +21,7 @@ import Prototipazione from "./pages/knowhow/prototipazione";
 import Fattibilita from "./pages/knowhow/fattibilita";
 import ParcoMacchine from "./pages/macchine/parcoMacchine";
 import Metrologica from "./pages/macchine/metrologica";
+import LavorazioniCNC from "./pages/macchine/lavorazionicnc";
 
 function App() {
   return (
@@ -59,6 +60,10 @@ function App() {
           <Route path="/knowhow/fattibilita" element={<FattibilitaPage />} />
           <Route path="/macchine" element={<ParcoMacchinePage />} />
           <Route path="/macchine/metrologica" element={<MetrologicaPage />} />
+          <Route
+            path="/macchine/lavorazionicnc"
+            element={<LavorazioniCNCPage />}
+          />
         </Routes>
       </div>
     </BrowserRouter>
@@ -220,6 +225,14 @@ function MetrologicaPage() {
   return (
     <div>
       <Metrologica />
+    </div>
+  );
+}
+
+function LavorazioniCNCPage() {
+  return (
+    <div>
+      <LavorazioniCNC />
     </div>
   );
 }

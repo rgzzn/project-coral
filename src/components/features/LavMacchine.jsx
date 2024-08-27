@@ -1,10 +1,17 @@
+import { PiStairsDuotone } from "react-icons/pi";
+import { FaKitchenSet } from "react-icons/fa6";
+import { MdOutlineCoffeeMaker } from "react-icons/md";
+import { RiDoorLockLine } from "react-icons/ri";
+import { TbSettingsBolt } from "react-icons/tb";
+import { BsBoxSeam } from "react-icons/bs";
+
 export const Feature = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            Brand new
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-black uppercase rounded-full bg-orange-accent-400">
+            SETTORI
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -36,133 +43,128 @@ export const Feature = () => {
           i nostri settori
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          I diversi ambiti in cui forniamo alta qualità e soluzioni innovative
         </p>
       </div>
-      <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <FaKitchenSet className="w-7 h-7 text-orange-accent-400" />
             </div>
-            <h6 className="mb-2 font-semibold leading-5">The deep ocean</h6>
+            <h6 className="mb-2 font-semibold leading-5">Elettrodomestico</h6>
             <p className="mb-3 text-sm text-gray-900">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear.
+              Eccellenza in componenti per elettrodomestici, dall’alta
+              produzione a prototipi esclusivi, unendo tecnologia e design.
             </p>
           </div>
           <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            href="/settori/elettrodomestico"
+            aria-label="Elettrodomestico"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
           >
-            Learn more
+            Scopri di più
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <MdOutlineCoffeeMaker className="w-7 h-7 text-orange-accent-400" />
             </div>
-            <h6 className="mb-2 font-semibold leading-5">When has justice</h6>
+            <h6 className="mb-2 font-semibold leading-5">
+              Macchine per il caffè
+            </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Rough pomfret lemon shark plownose chimaera southern sandfish
-              kokanee northern sea.
+              Dal 2008, offriamo componenti di design e strutturali per leader
+              del caffè, con acciaio aisi 304 e collaborazioni per rafforzare la
+              loro posizione di mercato.
             </p>
           </div>
           <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            href="/settori/caffe"
+            aria-label="Macchine per il Caffè"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
           >
-            Learn more
+            Scopri di più
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <PiStairsDuotone className="w-7 h-7 text-orange-accent-400" />
             </div>
-            <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
+            <h6 className="mb-2 font-semibold leading-5">
+              Arredamento grande distribuzione
+            </h6>
             <p className="mb-3 text-sm text-gray-900">
-              A slice of heaven. O for awesome, this chocka full cuzzie is as
-              rip-off as a cracker.
+              Soluzioni meccaniche innovative per la grande distribuzione, con
+              un focus su qualità e partnership strategiche.
             </p>
           </div>
           <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            href="/settori/arredamento"
+            aria-label="Arredamento grande distribuzione"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
           >
-            Learn more
+            Scopri di più
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <RiDoorLockLine className="w-7 h-7 text-orange-accent-400" />
             </div>
-            <h6 className="mb-2 font-semibold leading-5">A slice of heaven</h6>
+            <h6 className="mb-2 font-semibold leading-5">Serrature</h6>
             <p className="mb-3 text-sm text-gray-900">
-              Disrupt inspire and think tank, social entrepreneur but
-              preliminary thinking think tank compelling.
+              Dallo stampaggio all’assemblaggio, eccellenza in componenti per
+              serrature con free pass al mercato.
             </p>
           </div>
           <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            href="/settori/serrature"
+            aria-label="Serrature"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
           >
-            Learn more
+            Scopri di più
+          </a>
+        </div>
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <TbSettingsBolt className="w-7 h-7 text-orange-accent-400" />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Ceramico</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Vent’anni di eccellenza in componenti per ceramica, con soluzioni
+              su misura e tecnologia avanzata.
+            </p>
+          </div>
+          <a
+            href="/settori/ceramico"
+            aria-label="Ceramico"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
+          >
+            Scopri di più
+          </a>
+        </div>
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <BsBoxSeam className="w-7 h-7 text-orange-accent-400" />
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Packaging</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Precisione e innovazione definiscono la fornitura di componenti
+              meccanici di alta qualità e sistemi completi per i leader
+              dell'industria del packaging.
+            </p>
+          </div>
+          <a
+            href="/settori/packaging"
+            aria-label="Packaging"
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
+          >
+            Scopri di più
           </a>
         </div>
       </div>
