@@ -225,3 +225,5 @@ export const Foot = () => {
     </div>
   );
 };
+export default class Footer {
+}
