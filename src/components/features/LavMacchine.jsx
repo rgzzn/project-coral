@@ -14,7 +14,7 @@ export const Feature = () => {
             SETTORI
           </p>
         </div>
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -42,7 +42,7 @@ export const Feature = () => {
           </span>{" "}
           i nostri settori
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="text-base md:text-lg">
           I diversi ambiti in cui forniamo alta qualità e soluzioni innovative
         </p>
       </div>
@@ -53,7 +53,7 @@ export const Feature = () => {
               <FaKitchenSet className="w-7 h-7 text-orange-accent-400" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Elettrodomestico</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Eccellenza in componenti per elettrodomestici, dall’alta
               produzione a prototipi esclusivi, unendo tecnologia e design.
             </p>
@@ -74,7 +74,7 @@ export const Feature = () => {
             <h6 className="mb-2 font-semibold leading-5">
               Macchine per il caffè
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Dal 2008, offriamo componenti di design e strutturali per leader
               del caffè, con acciaio aisi 304 e collaborazioni per rafforzare la
               loro posizione di mercato.
@@ -96,7 +96,7 @@ export const Feature = () => {
             <h6 className="mb-2 font-semibold leading-5">
               Arredamento grande distribuzione
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Soluzioni meccaniche innovative per la grande distribuzione, con
               un focus su qualità e partnership strategiche.
             </p>
@@ -115,7 +115,7 @@ export const Feature = () => {
               <RiDoorLockLine className="w-7 h-7 text-orange-accent-400" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Serrature</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Dallo stampaggio all’assemblaggio, eccellenza in componenti per
               serrature con free pass al mercato.
             </p>
@@ -134,7 +134,7 @@ export const Feature = () => {
               <TbSettingsBolt className="w-7 h-7 text-orange-accent-400" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Ceramico</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Vent’anni di eccellenza in componenti per ceramica, con soluzioni
               su misura e tecnologia avanzata.
             </p>
@@ -153,7 +153,7 @@ export const Feature = () => {
               <BsBoxSeam className="w-7 h-7 text-orange-accent-400" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">Packaging</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-sm">
               Precisione e innovazione definiscono la fornitura di componenti
               meccanici di alta qualità e sistemi completi per i leader
               dell'industria del packaging.

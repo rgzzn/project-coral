@@ -28,7 +28,7 @@ export const StampaggioLam = () => {
           </div>
           <div>
             <a
-              href="/"
+              href="/macchine/stampaggioLam"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-orange-accent-400 hover:text-orange-800"
             >

@@ -1,5 +1,9 @@
 import React from "react";
 
+import stampaggio_1 from "../../assets/macchine/stampaggio/stampaggio_1.jpg"
+import stampaggio_2 from "../../assets/macchine/stampaggio/stampaggio_2.jpg"
+import stampaggio_3 from "../../assets/macchine/stampaggio/stampaggio_3.jpg"
+
 import metrologica_1 from "../../assets/macchine/metrologica/metrologica_1.jpg";
 import metrologica_2 from "../../assets/macchine/metrologica/metrologica_2.jpg";
 import metrologica_3 from "../../assets/macchine/metrologica/metrologica_3.jpg";
@@ -12,7 +16,7 @@ import { Feature } from "../../components/features/LavMacchine";
 import Nav from "../../components/navbar/NavbarMacchine";
 import { Foot as Footer } from "../../components/footer/footer";
 
-const Metrologica = () => {
+const StampaggioLAM = () => {
   return (
     <div>
       <Nav />
@@ -82,7 +86,7 @@ const Metrologica = () => {
                 />
               </svg>
               <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">
-                Sala Metrologica
+                Stampaggio Lamiera
               </span>
             </div>
           </li>
@@ -96,31 +100,28 @@ const Metrologica = () => {
               <div className="max-w-xl mb-6">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
                   <br className="hidden md:block" />
-                  Sala{" "}
+                  Stampaggio{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-orange-accent-100" />
                     <span className="relative inline-block text-orange-accent-400">
-                      Metrologica
+                      Lamiera
                     </span>
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  A partire dall'autunno 2017, lo stabilimento di Portico si è
-                  dotato di una nuova sala di misura climatica all'avanguardia.
-                  Realizzata appositamente all'interno di una camera in
-                  muratura, la sala è equipaggiata con una macchina di misura
-                  tridimensionale Hexagon Global Performance di ultima
-                  generazione, con corse X900 Y1500 Z800, che garantisce una
-                  precisione di misura senza precedenti. A completare
-                  l'attrezzatura, sono presenti i più moderni strumenti di
-                  misura.
+                  <strong>Presse meccaniche:</strong> 50 macchine che vanno da 600 ton doppio montante con banco 2500×1500 a 10 ton a collo di cigno. Avanzamento nastro con calandre fino a 800 mm di lunghezza nastro.
+                  <br></br><br></br><strong>Presse idrauliche:</strong> n. 2 da 400 e 300 ton con banco da 1,5 x 1,5 m. Inoltre una pressa idraulica da 200 ton con banco da 3000 x 1000
+                  <br></br><br></br><strong>Robot di saldatura:</strong>
+                  <br></br>n. 5 robot ABB serie IRB a 6 assi con tavole da 30 a 150 kg
+                  <br></br>n. 1 robot kawasaki con tavola da 150 kg
+                  <br></br><br></br><strong>Macchine speciali:</strong> Bipres è specializzata nella costruzione di macchine automatiche dedicate per ottimizzazione di produzione che vengono realizzate in partnership con i clienti
                 </p>
               </div>
             </div>
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src={metrologica_1}
+                src={stampaggio_1}
                 alt=""
               />
             </div>
@@ -130,12 +131,12 @@ const Metrologica = () => {
       <div>
         {/* contenitore immagini */}
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2">
             <div>
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_2}
+                  src={stampaggio_2}
                   alt="Person"
                 />
               </div>
@@ -144,43 +145,7 @@ const Metrologica = () => {
               <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                 <img
                   className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_3}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_4}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_5}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_6}
-                  alt="Person"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={metrologica_7}
+                  src={stampaggio_3}
                   alt="Person"
                 />
               </div>
@@ -194,4 +159,4 @@ const Metrologica = () => {
   );
 };
 
-export default Metrologica;
+export default StampaggioLAM;

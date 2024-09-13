@@ -3,7 +3,9 @@ import React from "react";
 import { Feature } from "../../components/features/LavMacchine";
 import Nav from "../../components/navbar/NavbarMacchine";
 import { Foot as Footer } from "../../components/footer/footer";
-
+import lavcnc_1 from "../../assets/macchine/lavorazioni/lavcnc_1.jpg";
+import lavcnc_2 from "../../assets/macchine/lavorazioni/lavcnc_2.jpg";
+import lavcnc_3 from "../../assets/macchine/lavorazioni/lavcnc_3.jpg";
 const LavorazioniCNC = () => {
   return (
     <div>
@@ -11,7 +13,7 @@ const LavorazioniCNC = () => {
       <div>
         {/* breadcrumb */}
         <nav
-          class="flex px-5 py-3 text-gray-700 border rounded-lg"
+          className="flex px-5 py-3 text-gray-700 border rounded-lg"
           aria-label="Breadcrumb"
         >
           <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -50,7 +52,7 @@ const LavorazioniCNC = () => {
                   />
                 </svg>
                 <a
-                  href="/lavorazioni"
+                  href="/macchine"
                   class="ms-1 text-sm font-medium text-gray-700 hover:text-orange-accent-400 md:ms-2 dark:text-gray-400 dark:hover:text-white"
                 >
                   Parco Macchine
@@ -99,27 +101,44 @@ const LavorazioniCNC = () => {
                   </span>
                 </h2>
                 <p className="text-base text-gray-600 md:text-lg">
-                  A partire dall'autunno 2017, lo stabilimento di Portico si è
-                  dotato di una nuova sala di misura climatica all'avanguardia.
-                  Realizzata appositamente all'interno di una camera in
-                  muratura, la sala è equipaggiata con una macchina di misura
-                  tridimensionale Hexagon Global Performance di ultima
-                  generazione, con corse X900 Y1500 Z800, che garantisce una
-                  precisione di misura senza precedenti. A completare
-                  l'attrezzatura, sono presenti i più moderni strumenti di
-                  misura.
+                  Bipres offre un parco macchine completo per la tornitura, comprendente torni a controllo numerico di ripresa, automatici da barra e macchine di grandi dimensioni. Siamo in grado di lavorare una vasta gamma di materiali, dai ferrosi (incluso l'acciaio inox) ai non ferrosi. La nostra attrezzatura ci permette di realizzare pezzi di grandi dimensioni, fino a un diametro di 1000 mm e una lunghezza di 3000 mm, grazie al nostro nuovo tornio COMEV. Inoltre, offriamo lavorazioni speciali come la tornitura con inserti in ceramica su temprato, garantendo finiture superficiali di elevata qualità. Completano il nostro parco macchine un centro di lavoro CNC GILDEMAISTER e una fresatrice SORALUCE SP 10000, che ci consentono di realizzare componenti complessi con la massima precisione e flessibilità.
                 </p>
               </div>
             </div>
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src=""
+                src={lavcnc_3}
                 alt=""
               />
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        {/* contenitore immagini */}
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2">
+            <div>
+              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                <img
+                  className="object-cover w-full h-56 md:h-64 xl:h-80"
+                  src={lavcnc_1}
+                  alt="Person"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                <img
+                  className="object-cover w-full h-56 md:h-64 xl:h-80"
+                  src={lavcnc_2}
+                  alt="Person"
+                />
+              </div>
+            </div>
+        </div>
+      </div>
       </div>
       <Feature />
       <Footer />
