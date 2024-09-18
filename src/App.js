@@ -23,6 +23,7 @@ import ParcoMacchine from "./pages/macchine/parcoMacchine";
 import Metrologica from "./pages/macchine/metrologica";
 import LavorazioniCNC from "./pages/macchine/lavorazionicnc";
 import StampaggioLAM from "./pages/macchine/stampaggiolam";
+import Referenze from "./pages/referenze";
 
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
             element={<LavorazioniCNCPage />}
           />
           <Route path="/macchine/stampaggiolam" element={<StampaggioLAMPage />}/>
+          <Route path="/referenze" element={<ReferenzePage/>}/>
         </Routes>
       </div>
     </BrowserRouter>
@@ -244,6 +246,14 @@ function StampaggioLAMPage() {
   return (
     <div>
       <StampaggioLAM />
+    </div>
+  )
+}
+
+function ReferenzePage() {
+  return (
+    <div>
+      <Referenze/>
     </div>
   )
 }

@@ -4,14 +4,6 @@ import stampaggio_1 from "../../assets/macchine/stampaggio/stampaggio_1.jpg"
 import stampaggio_2 from "../../assets/macchine/stampaggio/stampaggio_2.jpg"
 import stampaggio_3 from "../../assets/macchine/stampaggio/stampaggio_3.jpg"
 
-import metrologica_1 from "../../assets/macchine/metrologica/metrologica_1.jpg";
-import metrologica_2 from "../../assets/macchine/metrologica/metrologica_2.jpg";
-import metrologica_3 from "../../assets/macchine/metrologica/metrologica_3.jpg";
-import metrologica_4 from "../../assets/macchine/metrologica/metrologica_4.jpg";
-import metrologica_5 from "../../assets/macchine/metrologica/metrologica_5.jpg";
-import metrologica_6 from "../../assets/macchine/metrologica/metrologica_6.jpg";
-import metrologica_7 from "../../assets/macchine/metrologica/metrologica_7.jpg";
-
 import { Feature } from "../../components/features/LavMacchine";
 import Nav from "../../components/navbar/NavbarMacchine";
 import { Foot as Footer } from "../../components/footer/footer";

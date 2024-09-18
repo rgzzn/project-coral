@@ -12,9 +12,9 @@ const navigation = [
   { name: "Lavorazioni", href: "/lavorazioni", current: false },
   { name: "Know How", href: "/knowhow", current: false },
   { name: "Parco Macchine", href: "/macchine", current: false },
-  { name: "Referenze", href: "/referenze", current: false },
+  { name: "Referenze", href: "/referenze", current: true },
   { name: "Case History", href: "#", current: false },
-  { name: "Contatti", href: "/contact", current: true },
+  { name: "Contatti", href: "/contact", current: false },
 ];
 
 function classNames(...classes) {

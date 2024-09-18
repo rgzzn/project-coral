@@ -12,7 +12,7 @@ const navigation = [
   { name: "Lavorazioni", href: "/lavorazioni", current: false },
   { name: "Know How", href: "/knowhow", current: false },
   { name: "Parco Macchine", href: "/macchine", current: false },
-  { name: "Referenze", href: "#", current: false },
+  { name: "Referenze", href: "/referenze", current: false },
   { name: "Case History", href: "#", current: false },
   { name: "Contatti", href: "/contact", current: false },
 ];
