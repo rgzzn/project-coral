@@ -13,7 +13,7 @@ const navigation = [
   { name: "Know How", href: "/knowhow", current: true },
   { name: "Parco Macchine", href: "/macchine", current: false },
   { name: "Referenze", href: "/referenze", current: false },
-  { name: "Case History", href: "#", current: false },
+  { name: "Case History", href: "/casehistory", current: false },
   { name: "Contatti", href: "/contact", current: false },
 ];
 

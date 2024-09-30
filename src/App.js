@@ -69,6 +69,7 @@ function App() {
           />
           <Route path="/macchine/stampaggiolam" element={<StampaggioLAMPage />}/>
           <Route path="/referenze" element={<ReferenzePage/>}/>
+          <Route path="/casehistory" element={<caseHistoryPage/>}/>
         </Routes>
       </div>
     </BrowserRouter>
@@ -253,7 +254,7 @@ function StampaggioLAMPage() {
 function ReferenzePage() {
   return (
     <div>
-      <Referenze/>
+      <Referenze />
     </div>
   )
 }
