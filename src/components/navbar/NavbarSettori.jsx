@@ -3,7 +3,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logoAllWhite from "../../assets/logoAllWhite.svg";
 
 const navigation = [
@@ -69,10 +69,10 @@ export default function Nav() {
             {/* Profile dropdown */}
             <div className="relative ml-3">
               <a
-                href="#"
+                href="/contact"
                 aria-label="Login"
                 title="Login"
-                class="relative flex rounded-full bg-orange-accent-200 text-white text-sm rounded-md px-3 py-2 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange-accent-200 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
+                className="relative flex rounded-full bg-orange-accent-200 text-white text-sm rounded-md px-3 py-2 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange-accent-200 hover:bg-orange-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Login
               </a>

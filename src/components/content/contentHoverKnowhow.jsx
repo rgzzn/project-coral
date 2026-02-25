@@ -1,11 +1,6 @@
 import { PiWrenchDuotone } from "react-icons/pi";
-import { FaSheetPlastic } from "react-icons/fa6";
 import { MdOutlineCarpenter } from "react-icons/md";
 import { TbAssembly } from "react-icons/tb";
-
-{
-  /* import { PiGearFineBold } from "react-icons/pi"; */
-}
 
 export const ContentHover = () => {
   return (
@@ -91,12 +86,6 @@ export const ContentHover = () => {
               </p>
             </div>
           </a>
-          <a
-            href="/lavorazioni/stampaggio"
-            aria-label="Stampaggio Lamiera Acciaio"
-            title="Stampaggio Lamiera Acciaio"
-            className=""
-          ></a>
         </div>
         <div className="text-center pb-12"></div>
       </div>
