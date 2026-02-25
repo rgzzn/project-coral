@@ -177,7 +177,7 @@ export default function Example() {
             </div>
             <Label className="text-sm leading-6 text-gray-600">
               Accetto i termini e le condizioni sul trattamento{" "}
-              <a href="#" className="font-semibold text-orange-600">
+              <a href="/privacy" className="font-semibold text-orange-600">
                 privacy&nbsp;
               </a>
               .
