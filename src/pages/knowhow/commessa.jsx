@@ -1,7 +1,5 @@
 import React from "react";
 
-import { FaRegDotCircle } from "react-icons/fa";
-
 import commessa_1 from "../../assets/knowhow/commessa/commessa_1.jpg";
 import commessa_2 from "../../assets/knowhow/commessa/commessa_2.jpg";
 import commessa_3 from "../../assets/knowhow/commessa/commessa_3.jpg";

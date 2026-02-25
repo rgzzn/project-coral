@@ -1,11 +1,6 @@
 import React from "react";
 import cnc_1 from "../../assets/lavorazioni/cnc/cnc_1.jpg";
 
-import assemblaggio_1 from "../../assets/lavorazioni/assemblaggio/assemblaggio_1.jpg";
-import assemblaggio_2 from "../../assets/lavorazioni/assemblaggio/assemblaggio_2.jpg";
-import assemblaggio_3 from "../../assets/lavorazioni/assemblaggio/assemblaggio_3.jpg";
-import assemblaggio_4 from "../../assets/lavorazioni/assemblaggio/assemblaggio_4.jpg";
-
 import Nav from "../../components/navbar/NavbarLavorazioni";
 import { Foot as Footer } from "../../components/footer/footer";
 
